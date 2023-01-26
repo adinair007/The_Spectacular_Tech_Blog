@@ -6,6 +6,7 @@
         Edit Post
       </h2>
       <form id='edit-post-form'>
+        <input type="hidden" id="post-id" value="{{post.id}}" />
         <h2>Title</h2>
         <div>
           <input name='post-title' type='text' value='{{post.title}}' />
@@ -21,8 +22,10 @@
             {{format_plural 'comment' post.comments.length}}</a>
         </div>
         <button class='btn' type='submit'>Save post</button>
-        <button class='btn' type='button' id='delete-btn'>Delete post</button>
       </form>
+      <div class="delete">
+        <button class='btn' type='button' id='delete-btn'>Delete post</button>
+      </div>
     </div>
   </div>
 </section>

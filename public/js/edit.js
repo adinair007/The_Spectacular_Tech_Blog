@@ -21,8 +21,10 @@ const editFormHandler = async function (event) {
   document.location.replace('/dashboard');
 };
 
-const deleteClickHandler = async function () {
-  await fetch(`/api/post/${id}`, {
+const deleteClickHandler = async function (event) {
+  event.preventDefault();
+  const postId = document.getElementById('post-id')
+  await fetch(`/api/post/` + postId.value, {
     method: 'DELETE',
   });
 
