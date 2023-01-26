@@ -105,12 +105,25 @@ Once your '.env' has been created with the corresponding data, open up the schem
 
 
 ## Screenshots
+Home Page
 ![Screenshot_20230126_014443](https://user-images.githubusercontent.com/112667543/214782633-40d829d6-56d6-4af4-8c23-77e4ebc7a2af.png)
+
+Login Page
 ![Screenshot_20230126_014459](https://user-images.githubusercontent.com/112667543/214782653-e9c79736-4d69-43f6-829a-0f2780871da3.png)
+
+Signup Page
 ![Screenshot_20230126_014506](https://user-images.githubusercontent.com/112667543/214782680-6e897b11-8a48-4d1c-897b-7c6431f305ad.png)
+
+Dashboard
 ![Screenshot_20230126_014526](https://user-images.githubusercontent.com/112667543/214782696-e8d76ce9-b91c-46da-8b99-f2119134b057.png)
+
+Editing/Deleting Post
 ![Screenshot_20230126_014533](https://user-images.githubusercontent.com/112667543/214782701-ee186be3-8185-442c-a2de-ce2c037bd030.png)
+
+Creating a new post
 ![Screenshot_20230126_014543](https://user-images.githubusercontent.com/112667543/214782706-c1ed49cb-5142-417d-9b26-91bf33e0563a.png)
+
+Viewing/Adding Comments
 ![Screenshot_20230126_014554](https://user-images.githubusercontent.com/112667543/214782722-39993320-4443-442e-92a5-18074f755546.png)
 
 ## Questions
