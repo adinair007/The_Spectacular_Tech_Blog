@@ -13,7 +13,7 @@ const newPostFormHandler = async function (event) {
   }
 
   if (title && body) {
-    await fetch(`/api/post`, {
+    const response = await fetch(`/api/post`, {
       method: 'POST',
       body: JSON.stringify({
         title: title.value,

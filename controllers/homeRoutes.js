@@ -34,6 +34,7 @@ router.get('/', async (req, res) => {
     res.render('all-posts', {
       layout: 'main',
       posts,
+      loggedIn:req.session.loggedIn
     });
   } catch (err) {
     console.log(err);
